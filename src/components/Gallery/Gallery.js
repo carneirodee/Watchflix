@@ -20,12 +20,11 @@ export const GalleryItem = styled.li`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 15vw;
-    height: 45vh;
-    margin: 1vw;
+    width: 58vh;
+    height: 100vh;
     color: gray;
     background-repeat: no-repeat;
-    background-size: 30vh;
+    background-size: 58vh;
     background-position: center top;
     ${props => props.poster ? `background-image:  radial-gradient(circle closest-corner at 40% 40%, rgba(0, 0, 0, 0.2) 10%, rgba(0,0,0, 0.8)  100%), 
     url(${props.poster});` : `background-color: black`};
