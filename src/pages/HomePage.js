@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import { Container } from '../components/commons/containers';
-import Gallery from '../components/Gallery';
 import { GalleryItem } from '../components/Gallery/Gallery';
-import Footer from '../containers/Footer';
 import Header from '../containers/Header';
 import CloseButton from '../assets/CloseButton';
 import Carousel from "react-multi-carousel";
