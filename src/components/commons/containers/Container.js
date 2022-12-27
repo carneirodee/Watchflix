@@ -12,8 +12,8 @@ const Container = styled.div`
     background-position: center top;
     padding: 4vw;
     @media(max-width: 800px) {
-        flex-direction: row;
-        width: auto;
+        // flex-direction: row;
+        // width: auto;
       }
 `;
 

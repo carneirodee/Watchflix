@@ -27,7 +27,7 @@ To run the app
 ```bash
 $  yarn start
 ```
-## Screenshots
+<!-- ## Screenshots
 
 1. Main Page
 <img width="1440" alt="Captura de Tela 2022-04-12 às 10 58 58" src="https://user-images.githubusercontent.com/44411176/162984484-507a254b-5064-42e0-9f86-5d7e2d311896.png">
@@ -36,7 +36,7 @@ $  yarn start
 <img width="329" alt="Captura de Tela 2022-04-12 às 11 01 27" src="https://user-images.githubusercontent.com/44411176/162984654-23be2134-fbe6-4fd1-a268-4ffdd7cd074a.png">
 
 
-
+ -->
 ## Code Snippets
 
  1. Using Styled Components
