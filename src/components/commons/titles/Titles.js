@@ -7,7 +7,7 @@ export const Title = styled.header`
     margin: 0vh 3vw 0 3vw;
     @media(max-width: 800px) {
         position: absolute;
-        margin-top: 5vh;
+        margin-top: 10vh;
         font-size: 4vh;
         line-height: 2vh;
 
@@ -25,7 +25,7 @@ export const Subtitle = styled.h1`
     margin: 3vh 5vw 0 5vw;
     @media(max-width: 800px) {
         position: absolute;
-        margin-top: 5vh;
+        margin-top: 15vh;
         font-size: 2vh;
         line-height: 2vh;
 
@@ -45,7 +45,7 @@ export const Description = styled.p`
     @media(max-width: 800px) {
         position: absolute;
         top: 10vh;
-        margin-top: 5vh;
+        margin-top: 20vh;
         font-size: 2vh;
         line-height: 2vh;
 

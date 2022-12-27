@@ -1,3 +1,4 @@
 import Container from './Container';
+import ContainerMovie from './ContainerMovie';
 
-export { Container };
+export { Container, ContainerMovie };
