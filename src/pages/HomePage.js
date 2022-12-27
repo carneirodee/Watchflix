@@ -6,7 +6,6 @@ import CloseButton from '../assets/CloseButton';
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
-
 function Home(props) {
 
   const { movies } = props;
@@ -39,7 +38,7 @@ function Home(props) {
         <>
           <CloseButton onClick={() => setMovie('')} />
           <Header title={movie.title} year={movie.year} director={movie.director}
-            country={movie.country} synopsis={movie.synopsis}
+            country={movie.country} synopsis={movie.synopsis} watchId={movie.watchId}
           />
         </>
 
@@ -47,7 +46,9 @@ function Home(props) {
         <Carousel responsive={responsive}>
           {
             movies.map((movie, key) => {
-               return <GalleryItem poster={movie.poster} onClick={() => setMovie(movie)}></GalleryItem>
+               return <GalleryItem poster={movie.poster} onClick={() => setMovie(movie)} >
+                 
+               </GalleryItem>
 
             })
           }

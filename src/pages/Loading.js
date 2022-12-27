@@ -5,7 +5,7 @@ function Loading() {
 
     return (
         <Container>
-            <TouchBallLoading color={"green"} size={"large"} />
+            <TouchBallLoading color={"white"} size={"large"} />
         </Container>
     );
 }
